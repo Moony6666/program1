@@ -1,10 +1,10 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
+
 using namespace std;
 
 int main()
 {
-	int a , b , temp;
+	int a , b;
 
 	cout << "Enter two numbers: " << endl;
 	cin >> a >> b;
@@ -12,7 +12,7 @@ int main()
 	cout << "Before replacement:" << endl;
 	cout << "a = " << a << ", b = " << b << endl;
 
-	temp = a;
+	int temp = a;
 	a = b;
 	b = temp;
 	
@@ -23,3 +23,8 @@ int main()
 
 }
 
+
+5 12
+17 12 
+17 5
+12 5 
